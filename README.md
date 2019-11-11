@@ -1,1 +1,1 @@
-# functional-array-library
+# JS Functional Array Library [![Build Status](https://travis-ci.com/mussky95/functional-array-library.svg?branch=master)](https://travis-ci.com/mussky95/functional-array-library) [![Maintainability](https://api.codeclimate.com/v1/badges/7aa1d4b8be8e1d460fbc/maintainability)](https://codeclimate.com/github/mussky95/functional-array-library/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/7aa1d4b8be8e1d460fbc/test_coverage)](https://codeclimate.com/github/mussky95/functional-array-library/test_coverage)
