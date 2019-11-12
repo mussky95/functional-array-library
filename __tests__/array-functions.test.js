@@ -1,5 +1,5 @@
 import {
-  take, skip, map, reduce, filter,
+  take, skip, map, reduce, filter, chain,
 } from '../src/array-functions';
 
 describe('Functional Array Functions', () => {
@@ -37,5 +37,9 @@ describe('Functional Array Functions', () => {
     const callback = (a) => a > 3;
 
     expect(filter(array, callback)).toEqual([4, 5]);
+  });
+
+  test('chain([1,2,3]).take(2).skip(1).value() will return [2]', () => {
+    expect(chain([1, 2, 3]).take(2).skip(1).value()).toEqual([2]);
   });
 });
